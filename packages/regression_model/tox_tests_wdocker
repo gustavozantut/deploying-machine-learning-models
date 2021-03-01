@@ -1,0 +1,6 @@
+sudo docker run -i -t -v /home/zantut/py_projects/deploying-machine-learning-models/:/app/deploying-machine-learning-models/ themattrix/tox /bin/bash
+
+cd deploying-machine-learning-models/packages/regression_model/
+
+tox
+
