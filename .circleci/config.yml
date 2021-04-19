@@ -121,4 +121,4 @@ workflows:
             branches:
               only:
                 - master
-                - personal_master
+                - personal_adjustments
