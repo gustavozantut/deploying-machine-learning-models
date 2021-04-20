@@ -137,4 +137,4 @@ workflows:
             branches:
               only:
                 - master
-		- personal_master
+                - personal_master
