@@ -129,7 +129,6 @@ workflows:
           filters:
             branches:
               only:
-                - master
                 - personal_master
       - section_10_deploy_to_heroku:
           requires:
@@ -137,5 +136,5 @@ workflows:
           filters:
             branches:
               only:
-                - master
                 - personal_master
+
