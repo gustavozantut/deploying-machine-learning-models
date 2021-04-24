@@ -132,7 +132,7 @@ jobs:
       - run: 
           name: Release to Heroku
           command: |
-            heroku container:release web -a $HEROKU_APP_NAME
+            heroku container:release web $HEROKU_APP_NAME -a $HEROKU_APP_NAME
 
 workflows:
   version: 2
