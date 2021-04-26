@@ -149,7 +149,7 @@ workflows:
           filters:
             branches:
               only:
-                - personal_master
+                #- personal_master
       # - section_10_deploy_to_heroku:
       #     requires:
       #       - train_and_upload_regression_model
@@ -163,5 +163,5 @@ workflows:
           filters:
             branches:
               only:
-                - personal_master
+                #- personal_master
 
