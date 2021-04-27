@@ -164,6 +164,7 @@ workflows:
             branches:
               only:
                 - personal_master
+
       # - section_10_deploy_to_heroku:
       #     requires:
       #       - train_and_upload_regression_model
@@ -178,6 +179,7 @@ workflows:
       #       branches:
       #         only:
       #          - personal_master
+
       # - section_12_publish_docker_image_to_aws:
       #     requires:
       #       - train_and_upload_regression_model
@@ -185,4 +187,3 @@ workflows:
       #       branches:
       #         only:
       #           - master
->>>>>>> 6f56a46... Section 12.14 - Deploying to ECS via CI Pipeline
